@@ -1,0 +1,12 @@
+site_name: Fundamentos de Machine Learning
+theme:
+  name: material
+
+nav:
+  - 'Introducción: Aprendizaje automatico ': 'index.md'
+  - 'semana1: Modelos': 'semana1.md'
+  - 'semana2: Datos': 'semana2.md'
+  - 'semana3: Modelos Avanzados': 'semana3.md'
+  - 'semana4: ML en el mundo real': 'semana4.md'
+
+
