@@ -1,0 +1,8 @@
+/* :root es una forma de declarar variables de color globales */
+:root {
+  --md-primary-fg-color:        #0c843c; /* Tono 700 para el color principal */
+  --md-primary-fg-color--light: #3eea82; /* Tono 400 para un hover o destaque */
+  --md-primary-fg-color--dark:  #0f582e; /* Tono 900 para un tono más oscuro */
+  --md-primary-bg-color:        #ffffff; /* Fondo de la barra principal (blanco) */
+  --md-primary-bg-color--light: #effef4; /* Tono 50 para fondos muy claros */
+}

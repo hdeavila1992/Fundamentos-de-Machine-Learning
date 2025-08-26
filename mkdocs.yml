@@ -1,6 +1,25 @@
 site_name: Fundamentos de Machine Learning
 theme:
   name: material
+  palette:
+    # Paleta para el modo claro (día)
+    - scheme: default
+      primary: green # Un color base, pero será anulado por tu CSS
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    # Paleta para el modo oscuro (noche)
+    - scheme: slate
+      primary: green # También será anulado si defines colores para slate en tu CSS
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+# --- Sección de Personalización ---
+custom_dir: overrides
+extra_css:
+  - extra.css
 
 nav:
   - 'Introducción: Aprendizaje automatico ': 'index.md'
