@@ -22,6 +22,9 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
       
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
@@ -39,6 +42,8 @@
       
     
     
+      <link rel="stylesheet" href="extra.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -49,7 +54,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -58,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#introduccion-a-fundamentos-del-machine-learning" class="md-skip">
           Skip to content
         </a>
       
@@ -100,6 +112,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo"  aria-label="Cambiar a modo oscuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="indigo"  aria-label="Cambiar a modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -240,20 +278,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Objetivos de Aprendizaje:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Objetivos de Aprendizaje:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estructura-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura del Curso:
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -380,20 +424,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      Objetivos de Aprendizaje:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Objetivos de Aprendizaje:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#estructura-del-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura del Curso:
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -413,21 +463,67 @@
 
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h1 id="introduccion-a-fundamentos-del-machine-learning">Introducción a Fundamentos del Machine Learning</h1>
+<p>¡Hola y prepárate para un viaje fascinante! 🚀 Estás a punto de sumergirte en el increíble universo del <strong>Machine Learning (ML)</strong>.</p>
+<p>Piensa en esto no como un curso tradicional, sino como el lugar donde le daremos "superpoderes" a las computadoras. 🧠 Aprenderás cómo las máquinas pueden analizar datos, encontrar patrones y tomar decisiones inteligentes por sí mismas, ¡casi como por arte de magia!</p>
+<p>Juntos vamos a explorar los secretos detrás de la tecnología que impulsa a Netflix, Spotify y los autos autónomos. ¿Listo/a para empezar? ¡Vamos allá! 👇</p>
+<p>!!! info "Duración estimada del curso: 4 semanas"</p>
+<p>Este curso está diseñado para completarse a lo largo de 4 semanas, con una dedicación aproximada de 6 horas por semana.</p>
+<hr />
+<h2 id="objetivos-de-aprendizaje">Objetivos de Aprendizaje:</h2>
+<p>!!! success "Al finalizar este curso, serás capaz de:"</p>
+<pre><code>* Generalidades del Machine Learning:
+ **ML supervisado, no supervisado** y por refuerzo.
+* Identificar los conceptos clave del aprendizaje supervisado y no supervisado.
+* Descubrir cómo la resolución de problemas con ML se diferencia de los enfoques de programación tradicionales.
+* Reconocer ejemplos de aplicación del Machine Learning en la industria.
+* Conocer las herramientas básicas necesarias para empezar en el campo.
+*Problemas de Clasificación y Problemas de Regresión.
+* Problemas de Clasificación Problemas de Regresión.
+* ¿Cómo trabajar con datos?
 </code></pre>
+<hr />
+<h3 id="estructura-del-curso">Estructura del Curso:</h3>
+<p>!!! abstract "Contenido por Semanas"</p>
+<pre><code>* **Semana 1: ¿Qué es el Machine Learning?**
+    * Herramientas para el trabajo.
+     **LLM como aistentes de Trabajo
+     **Git-hub 
+     **Crear cuenta en Kaggle
+     **Dwey Data
+     **Python y Ambientes virtuales
+     **Visual Studio Code
+     **Cookiecutter
+    * Diferencias con la programación clásica.
+    * Introducción al Aprendizaje Supervisado.
+    * Regressión Lineal 
+    * Regresión logística
+    * Clasificación
+
+* **Semana 2: Datos**
+    * ¿Cómo trabajar con datos numéricos?.
+    * ¿Cómo trabajar con datos categóricos?.
+    * Conjuntos de datos, generalización y sobreajuste.
+
+* **Semana 3: Modelos de ML avanzados**
+    * Redes Neuronales.
+    * Embeddings.
+    * Los modelos de lenguaje grandes.
+
+* **Semana 4: ML en el mundo real**
+    * Sistemas del AA de producción
+    * AutoML
+    * Equidad de ML.
+</code></pre>
+<p>!!! question "Prerrequisitos"</p>
+<pre><code>Para aprovechar al máximo este curso, se recomienda tener conocimientos básicos de:
+*Una computadora personal
+*Ganas, absolutas ganas!
+** Álgebra lineal (vectores, matrices).
+** Cálculo (derivadas).
+** Fundamentos de programación.
+</code></pre>
+<p><a href="semana-1/">Siguiente: Generalidades del Machine Learning &rarr;</a></p>
 
 
 
