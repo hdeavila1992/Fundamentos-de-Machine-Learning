@@ -21,8 +21,10 @@ custom_dir: overrides
 extra_css:
   - extra.css
 
-# AGREGAR ESTA SECCIÓN:
+# AGREGAR ESTA SECCIÓN:  - mkdocs_quiz
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
