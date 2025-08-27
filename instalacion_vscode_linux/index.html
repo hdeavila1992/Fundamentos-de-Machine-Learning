@@ -16,7 +16,7 @@
     
     
       
-        <title>¿Qué es el Machine learning? - Fundamentos de Machine Learning</title>
+        <title>Instalación de Visual Studio Code en Linux - Fundamentos de Machine Learning</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#que-es-el-machine-learning" class="md-skip">
+        <a href="#instalacion-de-visual-studio-code-en-linux" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ¿Qué es el Machine learning?
+              Instalación de Visual Studio Code en Linux
             
           </span>
         </div>
@@ -358,19 +358,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#comprueba-tu-comprension" class="md-nav__link">
+  <a href="#1-comprobar-si-tu-distribucion-ya-tiene-vs-code" class="md-nav__link">
     <span class="md-ellipsis">
-      Comprueba tu comprensión
+      1. Comprobar si tu distribución ya tiene VS Code
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Comprueba tu comprensión">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-debian-ubuntu-y-derivadas-forma-sencilla-deb" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Debian / Ubuntu (y derivadas) — forma sencilla (.deb)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Debian / Ubuntu (y derivadas) — forma sencilla (.deb)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pregunta-1" class="md-nav__link">
+  <a href="#repositorio-para-actualizaciones-automaticas" class="md-nav__link">
     <span class="md-ellipsis">
-      Pregunta 1
+      Repositorio (para actualizaciones automáticas)
     </span>
   </a>
   
@@ -378,6 +387,33 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-rhel-fedora-centos-rpm" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 RHEL / Fedora / CentOS (RPM)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-probar-y-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Probar y usar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-problemas-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Problemas comunes
+    </span>
+  </a>
   
 </li>
       
@@ -397,43 +433,91 @@
 
 
 
-<h1 id="que-es-el-machine-learning">¿Qué es el Machine learning?</h1>
-<p>¡Empecemos nuestro viaje! 🚀 En esta primera semana, vamos a desmitificar el término Machine Learning (ML). En lugar de dar una sola definición, exploraremos cómo algunos de los pioneros y autores más influyentes del campo lo han descrito. Esto nos dará una comprensión mucho más rica y completa.</p>
-<div class="admonition quote">
-<p class="admonition-title">Arthur Samuel (1959)</p>
-<p><em>Un campo de estudio que da a las computadoras la habilidad de aprender sin ser explícitamente programadas.</em></p>
-<p><figure markdown="span">
-<img alt="Arthur Samuel" src="https://www.actuia.com/wp-content/uploads/2017/08/arthur-samuel-IA.jpg" width="350" /><figcaption>Arthur Samuel, pionero del Machine Learning.</figcaption></figure></p>
-</div>
-<p>Esta es una de las primeras y más famosas definiciones. Arthur Samuel fue un pionero en inteligencia artificial y creó un programa de damas que aprendía a jugar mejor que su propio creador.</p>
-<p>Su definición destaca la idea más importante: en lugar de escribir reglas a mano para cada posible escenario, construimos un sistema que <strong>crea sus propias reglas</strong> a partir de los datos.</p>
-<div class="admonition quote">
-<p class="admonition-title">Tom M. Mitchell (1997)</p>
-<p><em>Se dice que un programa de computadora aprende de la experiencia E con respecto a alguna clase de tareas T y una medida de rendimiento P, si su rendimiento en las tareas en T, medido por P, mejora con la experiencia E.</em></p>
-<p><figure markdown="span">
-<img alt="Arthur Samuel" src="https://cdn.theconversation.com/avatars/1165390/width238/Tom_Mitchell.jpg" width="350" /><figcaption>Arthur Samuel, pionero del Machine Learning.</figcaption></figure></p>
-</div>
-<p>Esta es la definición más formal y académica, y es la que encontrarás en muchos libros de texto. Tom Mitchell es un reconocido informático y su definición nos da tres ingredientes clave para cualquier problema de Machine Learning:</p>
-<ul>
-<li><strong>Tarea (T):</strong> ¿Cuál es el objetivo? (ej. clasificar correos como spam o no spam).</li>
-<li><strong>Experiencia (E):</strong> ¿Qué datos usará para aprender? (ej. un histórico de miles de correos ya etiquetados).</li>
-<li><strong>Rendimiento (P):</strong> ¿Cómo medimos si lo está haciendo bien? (ej. el porcentaje de correos que clasifica correctamente).</li>
-</ul>
-<div class="admonition video">
-<p class="admonition-title">🎥 Video: Introducción al Machine Learning</p>
-<p><iframe width="100%" height="315" 
-src="https://www.youtube.com/embed/NdNyYcAJQr8" 
-frameborder="0" allowfullscreen></iframe></p>
-</div>
-<h2 id="comprueba-tu-comprension">Comprueba tu comprensión</h2>
-<p>Después de ver el video, responde las siguientes preguntas para evaluar lo que has aprendido.</p>
+<h1 id="instalacion-de-visual-studio-code-en-linux">Instalación de Visual Studio Code en Linux</h1>
+<p><strong>Fuente oficial:</strong> <a href="https://code.visualstudio.com/">visualstudio</a> (Guía de instalación en Linux).</p>
+<blockquote>
+<p>Nota para principiantes: hay paquetes listos para usar (.deb, .rpm) y repositorios oficiales que permiten actualizar automáticamente VS Code con el gestor de paquetes del sistema.</p>
+</blockquote>
 <hr />
-<h3 id="pregunta-1">Pregunta 1</h3>
-<p>¡Es hora de poner a prueba lo que has aprendido! Responde la siguiente pregunta directamente aquí en la página.</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRJ-xs2r8P6qOtfQzp1HZvZiOVVZ-pDIr5WOwO_0ociDMaFw/viewform?embedded=true" width="640" height="615" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<h2 id="1-comprobar-si-tu-distribucion-ya-tiene-vs-code">1. Comprobar si tu distribución ya tiene VS Code</h2>
+<p>Algunas distribuciones permiten instalar desde el centro de software. Si no, sigue los pasos según tu tipo de distro.</p>
+<hr />
+<h2 id="2-debian-ubuntu-y-derivadas-forma-sencilla-deb">2. Debian / Ubuntu (y derivadas) — forma sencilla (.deb)</h2>
+<ol>
+<li>
+<p>Descarga el paquete <code>.deb</code> desde <a href="https://code.visualstudio.com/">visualstudio</a>  </p>
+</li>
+<li>
+<p>Instala con la interfaz gráfica (doble clic) o por terminal:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>./&lt;archivo&gt;.deb
+</code></pre></div>
+<ul>
+<li>Si tu sistema es muy antiguo, puedes usar:</li>
+</ul>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>dpkg<span class="w"> </span>-i<span class="w"> </span>&lt;archivo&gt;.deb
+sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>-f
+</code></pre></div>
+<h3 id="repositorio-para-actualizaciones-automaticas">Repositorio (para actualizaciones automáticas)</h3>
+<p>Para añadir el repositorio oficial y la clave (recomendado):</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Instala dependencias necesarias</span>
+sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>wget<span class="w"> </span>gpg<span class="w"> </span>apt-transport-https<span class="w"> </span>-y
 
-<p>¡Excelente trabajo! Ahora continuemos con el siguiente tema.</p>
-<p><a href="../semana-1-herramientas/">Siguiente: Herramientas de Trabajo para el curso &rarr;</a></p>
+<span class="c1"># Importa la llave</span>
+wget<span class="w"> </span>-qO-<span class="w"> </span>https://packages.microsoft.com/keys/microsoft.asc<span class="w"> </span><span class="p">|</span><span class="w"> </span>gpg<span class="w"> </span>--dearmor<span class="w"> </span>&gt;<span class="w"> </span>microsoft.gpg
+sudo<span class="w"> </span>install<span class="w"> </span>-o<span class="w"> </span>root<span class="w"> </span>-g<span class="w"> </span>root<span class="w"> </span>-m<span class="w"> </span><span class="m">644</span><span class="w"> </span>microsoft.gpg<span class="w"> </span>/usr/share/keyrings/microsoft.gpg
+rm<span class="w"> </span>-f<span class="w"> </span>microsoft.gpg
+
+<span class="c1"># Agrega el repositorio</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;deb [arch=amd64 signed-by=/usr/share/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/code stable main&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/apt/sources.list.d/vscode.list
+
+<span class="c1"># Actualiza e instala</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>code
+</code></pre></div>
+<hr />
+<h2 id="3-rhel-fedora-centos-rpm">3 RHEL / Fedora / CentOS (RPM)</h2>
+<p>Instala la llave y el repositorio y luego usa <code>dnf</code> o <code>yum</code>:
+<div class="highlight"><pre><span></span><code><span class="c1"># Importar llave</span>
+sudo<span class="w"> </span>rpm<span class="w"> </span>--import<span class="w"> </span>https://packages.microsoft.com/keys/microsoft.asc
+
+<span class="c1"># Agregar repo (ejemplo para dnf)</span>
+<span class="nb">echo</span><span class="w"> </span>-e<span class="w"> </span><span class="s2">&quot;[code]</span>
+<span class="s2">name=Visual Studio Code</span>
+<span class="s2">baseurl=https://packages.microsoft.com/yumrepos/vscode</span>
+<span class="s2">enabled=1</span>
+<span class="s2">autorefresh=1</span>
+<span class="s2">type=rpm-md</span>
+<span class="s2">gpgcheck=1</span>
+<span class="s2">gpgkey=https://packages.microsoft.com/keys/microsoft.asc&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/yum.repos.d/vscode.repo
+
+<span class="c1"># Instalar</span>
+sudo<span class="w"> </span>dnf<span class="w"> </span>check-update
+sudo<span class="w"> </span>dnf<span class="w"> </span>install<span class="w"> </span>code
+</code></pre></div></p>
+<hr />
+<h2 id="4-probar-y-usar">4. Probar y usar</h2>
+<ul>
+<li>Abre VS Code desde el menú de aplicaciones o con:</li>
+</ul>
+<div class="highlight"><pre><span></span><code>code<span class="w"> </span>--version
+code<span class="w"> </span>.
+</code></pre></div>
+<hr />
+<h2 id="5-problemas-comunes">5. Problemas comunes</h2>
+<ul>
+<li>
+<p><strong>Falta de dependencias:</strong> si la instalación con <code>dpkg</code> falla, ejecuta <code>sudo apt-get install -f</code> para resolver dependencias.</p>
+</li>
+<li>
+<p><strong>Actualizaciones:</strong> usar el repositorio oficial asegura que <code>apt</code>/<code>dnf</code> pueda actualizar VS Code automáticamente.</p>
+</li>
+</ul>
+<hr />
+<p><strong>Referencia oficial (instalación en Linux y repositorios).</strong></p>
+<p><a href="../semana-1-herramientas/">Regresar a : Herramientas de Trabajo para el curso &rarr;</a></p>
+<p><a href="../visual_studio_code/">O Regresar a: Instalación de Visual Studio Code &rarr;</a></p>
 
 
 

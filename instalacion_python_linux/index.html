@@ -16,7 +16,7 @@
     
     
       
-        <title>¿Qué es el Machine learning? - Fundamentos de Machine Learning</title>
+        <title>Instalación de Python en Linux (Ubuntu/Debian) - Fundamentos de Machine Learning</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#que-es-el-machine-learning" class="md-skip">
+        <a href="#instalacion-de-python-en-linux-ubuntudebian" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ¿Qué es el Machine learning?
+              Instalación de Python en Linux (Ubuntu/Debian)
             
           </span>
         </div>
@@ -358,26 +358,47 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#comprueba-tu-comprension" class="md-nav__link">
+  <a href="#1-verificar-si-python-esta-instalado" class="md-nav__link">
     <span class="md-ellipsis">
-      Comprueba tu comprensión
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Comprueba tu comprensión">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pregunta-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pregunta 1
+      1. Verificar si Python está instalado
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#2-actualizar-los-repositorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Actualizar los repositorios
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-instalar-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Instalar Python
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-instalar-dependencias-adicionales-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Instalar dependencias adicionales (opcional)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-actualizar-python-y-pip" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Actualizar Python y pip
+    </span>
+  </a>
   
 </li>
       
@@ -397,43 +418,48 @@
 
 
 
-<h1 id="que-es-el-machine-learning">¿Qué es el Machine learning?</h1>
-<p>¡Empecemos nuestro viaje! 🚀 En esta primera semana, vamos a desmitificar el término Machine Learning (ML). En lugar de dar una sola definición, exploraremos cómo algunos de los pioneros y autores más influyentes del campo lo han descrito. Esto nos dará una comprensión mucho más rica y completa.</p>
-<div class="admonition quote">
-<p class="admonition-title">Arthur Samuel (1959)</p>
-<p><em>Un campo de estudio que da a las computadoras la habilidad de aprender sin ser explícitamente programadas.</em></p>
-<p><figure markdown="span">
-<img alt="Arthur Samuel" src="https://www.actuia.com/wp-content/uploads/2017/08/arthur-samuel-IA.jpg" width="350" /><figcaption>Arthur Samuel, pionero del Machine Learning.</figcaption></figure></p>
-</div>
-<p>Esta es una de las primeras y más famosas definiciones. Arthur Samuel fue un pionero en inteligencia artificial y creó un programa de damas que aprendía a jugar mejor que su propio creador.</p>
-<p>Su definición destaca la idea más importante: en lugar de escribir reglas a mano para cada posible escenario, construimos un sistema que <strong>crea sus propias reglas</strong> a partir de los datos.</p>
-<div class="admonition quote">
-<p class="admonition-title">Tom M. Mitchell (1997)</p>
-<p><em>Se dice que un programa de computadora aprende de la experiencia E con respecto a alguna clase de tareas T y una medida de rendimiento P, si su rendimiento en las tareas en T, medido por P, mejora con la experiencia E.</em></p>
-<p><figure markdown="span">
-<img alt="Arthur Samuel" src="https://cdn.theconversation.com/avatars/1165390/width238/Tom_Mitchell.jpg" width="350" /><figcaption>Arthur Samuel, pionero del Machine Learning.</figcaption></figure></p>
-</div>
-<p>Esta es la definición más formal y académica, y es la que encontrarás en muchos libros de texto. Tom Mitchell es un reconocido informático y su definición nos da tres ingredientes clave para cualquier problema de Machine Learning:</p>
-<ul>
-<li><strong>Tarea (T):</strong> ¿Cuál es el objetivo? (ej. clasificar correos como spam o no spam).</li>
-<li><strong>Experiencia (E):</strong> ¿Qué datos usará para aprender? (ej. un histórico de miles de correos ya etiquetados).</li>
-<li><strong>Rendimiento (P):</strong> ¿Cómo medimos si lo está haciendo bien? (ej. el porcentaje de correos que clasifica correctamente).</li>
-</ul>
-<div class="admonition video">
-<p class="admonition-title">🎥 Video: Introducción al Machine Learning</p>
-<p><iframe width="100%" height="315" 
-src="https://www.youtube.com/embed/NdNyYcAJQr8" 
-frameborder="0" allowfullscreen></iframe></p>
-</div>
-<h2 id="comprueba-tu-comprension">Comprueba tu comprensión</h2>
-<p>Después de ver el video, responde las siguientes preguntas para evaluar lo que has aprendido.</p>
+<h1 id="instalacion-de-python-en-linux-ubuntudebian">Instalación de Python en Linux (Ubuntu/Debian)</h1>
+<p>Este documento describe paso a paso cómo instalar <strong>Python</strong> en Linux (ejemplo: Ubuntu/Debian).</p>
 <hr />
-<h3 id="pregunta-1">Pregunta 1</h3>
-<p>¡Es hora de poner a prueba lo que has aprendido! Responde la siguiente pregunta directamente aquí en la página.</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRJ-xs2r8P6qOtfQzp1HZvZiOVVZ-pDIr5WOwO_0ociDMaFw/viewform?embedded=true" width="640" height="615" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-
-<p>¡Excelente trabajo! Ahora continuemos con el siguiente tema.</p>
-<p><a href="../semana-1-herramientas/">Siguiente: Herramientas de Trabajo para el curso &rarr;</a></p>
+<h2 id="1-verificar-si-python-esta-instalado">1. Verificar si Python está instalado</h2>
+<p>Abra la terminal y ejecute:</p>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>--version
+</code></pre></div>
+<p>Si aparece una versión (ejemplo <code>Python 3.10.12</code>), ya está instalado.</p>
+<hr />
+<h2 id="2-actualizar-los-repositorios">2. Actualizar los repositorios</h2>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade<span class="w"> </span>-y
+</code></pre></div>
+<hr />
+<h2 id="3-instalar-python">3. Instalar Python</h2>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>python3<span class="w"> </span>python3-pip
+</code></pre></div>
+<p>Verifique la instalación:</p>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>--version
+pip3<span class="w"> </span>--version
+</code></pre></div>
+<hr />
+<h2 id="4-instalar-dependencias-adicionales-opcional">4. Instalar dependencias adicionales (opcional)</h2>
+<p>Algunas bibliotecas necesitan herramientas de desarrollo:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>build-essential<span class="w"> </span>libssl-dev<span class="w"> </span>libffi-dev<span class="w"> </span>python3-dev
+</code></pre></div>
+<hr />
+<h2 id="5-actualizar-python-y-pip">5. Actualizar Python y pip</h2>
+<p>Actualizar pip:</p>
+<div class="highlight"><pre><span></span><code>pip3<span class="w"> </span>install<span class="w"> </span>--upgrade<span class="w"> </span>pip
+</code></pre></div>
+<p>En Ubuntu, para tener la última versión de Python, puede usar el repositorio de <strong>deadsnakes</strong>:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>add-apt-repository<span class="w"> </span>ppa:deadsnakes/ppa
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>python3.12
+</code></pre></div>
+<p>Verificar la versión instalada:</p>
+<div class="highlight"><pre><span></span><code>python3.12<span class="w"> </span>--version
+</code></pre></div>
+<hr />
+<p>✅ Ahora Python está listo para usarse en Linux.</p>
+<p><a href="../semana-1-herramientas/">Regresar a : Herramientas de Trabajo para el curso &rarr;</a></p>
+<p><a href="../visual_studio_code/">O continuar con: Instalar Visual Studio Code &rarr;</a></p>
 
 
 
