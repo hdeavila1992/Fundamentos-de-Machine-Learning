@@ -17,7 +17,7 @@ Juntos vamos a explorar los secretos detrás de la tecnología que impulsa a Net
 !!! success "Al finalizar este curso, serás capaz de:"
 
 * Generalidades del Machine Learning:
- * ML supervisado, no supervisado y por refuerzo.
+ ** ML supervisado, no supervisado y por refuerzo.
 * Identificar los conceptos clave del aprendizaje supervisado y no supervisado.
 * Descubrir cómo la resolución de problemas con ML se diferencia de los enfoques de programación tradicionales.
 * Reconocer ejemplos de aplicación del Machine Learning en la industria.

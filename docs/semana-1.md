@@ -42,8 +42,8 @@ Después de ver el video, responde las siguientes preguntas para evaluar lo que 
 
 ¡Es hora de poner a prueba lo que has aprendido! Responde la siguiente pregunta directamente aquí en la página.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRJ-xs2r8P6qOtfQzp1HZvZiOVVZ-pDIr5WOwO_0ociDMaFw/viewform?embedded=true" width="640" height="615" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRJ-xs2r8P6qOtfQzp1HZvZiOVVZ-pDIr5WOwO_0ociDMaFw/viewform?embedded=true" width="640" height="1835" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
 ¡Excelente trabajo! Ahora continuemos con el siguiente tema.
 
-[Siguiente: Herramientas de Trabajo para el curso &rarr;](semana-1-herramientas.md)
+[Siguiente: Tipos de Machine learning &rarr;](semana-1-1.md)

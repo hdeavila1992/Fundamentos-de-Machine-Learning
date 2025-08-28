@@ -55,6 +55,7 @@ sudo apt install code
 ## 3 RHEL / Fedora / CentOS (RPM)
 
 Instala la llave y el repositorio y luego usa `dnf` o `yum`:
+
 ```bash
 # Importar llave
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -92,6 +93,13 @@ code .
 - **Falta de dependencias:** si la instalación con `dpkg` falla, ejecuta `sudo apt-get install -f` para resolver dependencias.
 
 - **Actualizaciones:** usar el repositorio oficial asegura que `apt`/`dnf` pueda actualizar VS Code automáticamente.
+
+---
+
+!!! video "🎥 Video: Como Descargar y Instalar Visual Studio Code"
+    <iframe width="100%" height="315"
+    src="https://www.youtube.com/embed/xpt-cIe7y4w"
+    frameborder="0" allowfullscreen></iframe>
 
 ---
 

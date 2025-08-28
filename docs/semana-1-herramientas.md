@@ -24,11 +24,11 @@ Necesitarás una cuenta en GitHub para administrar repositorios y colaborar en p
 ## 5. Cuenta en Kaggle
 
 Kaggle es una plataforma para acceder a datasets, participar en competencias y ejecutar notebooks en la nube.  
-👉 [Configurar Kaggle](database_aplications.md)
+👉 [Configurar Kaggle](Kaggle.md)
 
 ## 6. Dwey Data (opcional)
 
 Herramienta opcional para acceder a bases de datos y recursos adicionales.  
-👉 [Acceder a Dwey Data](database_aplications.md)
+👉 [Acceder a Dwey Data](Dewey_data.md)
 
 ---

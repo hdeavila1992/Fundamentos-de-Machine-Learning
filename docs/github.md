@@ -35,6 +35,6 @@ Se recomienda **activar la autenticación en dos factores (2FA)** para proteger 
     frameborder="0" allowfullscreen></iframe>
 ---
 
-[Regresar a : Herramientas de Trabajo para el curso &rarr;](semana-1-herramientas.md) 
+[Regresar a : Herramientas de Trabajo para el curso &rarr;](semana-1-herramientas.md)
 
 [O continuar con: Configurar Kaggle &rarr;](database_aplications.md)

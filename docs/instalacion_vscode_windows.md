@@ -67,6 +67,16 @@ code .
 
 ---
 
+!!! video "🎥 Video: Como Descargar y Instalar Visual Studio Code"
+
+    <iframe width="100%" height="315" 
+    src="https://www.youtube.com/embed/ePxSzB4wIow" 
+    frameborder="0" allowfullscreen></iframe>
+
+---
+
+---
+
 **Referencia oficial (instalación en Windows y notas útiles).**
 
 [Regresar a : Herramientas de Trabajo para el curso &rarr;](semana-1-herramientas.md)
