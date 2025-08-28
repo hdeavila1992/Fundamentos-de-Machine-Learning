@@ -38,6 +38,21 @@ Predicen la provabilidad de que algo pertenezca a una categoría dada. A diferen
 
 Se pueden utilizar modelos de clasificación para predecir si un correo electrónico es spam o si una foto es de una vaca, gato o perro.
 
+Los modelos de clasificación se dividen en dos grupos, clasificación binaria y clasificación multiclase. Las clasificación binaria predice un resultado entre dos categorías posibles, por ejemplo *llover* o *no llover*. Por otro lado, los modelos de clasificación multiclase predicen un resultado des entre varias categorias, por ejemplo, un modelo puede mostrar *lluvia*, *sequía*, *nieve* o *niebla*.
+
+!!! video "🎥 Video: Clasificación binaria"
+
+    <iframe width="100%" height="315" 
+    src="https://www.youtube.com/embed/6Gcb-LlelvI" 
+    frameborder="0" allowfullscreen></iframe>
+
+!!! Image "🎥 Video: Clasificación binaria"
+
+    <iframe width="100%" height="315" 
+    src="https://www.youtube.com/embed/6Gcb-LlelvI" 
+    frameborder="0" allowfullscreen></iframe>
+
+
 ## Aprendizaje No supervisado
 
 ## Aprendizaje por refuerzo
