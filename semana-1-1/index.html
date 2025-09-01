@@ -408,6 +408,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#inteligencia-artificial-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inteligencia artificial generativa.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliografía
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -488,15 +506,214 @@
 src="https://www.youtube.com/embed/6Gcb-LlelvI" 
 frameborder="0" allowfullscreen></iframe></p>
 </div>
-<div class="admonition image">
-<p class="admonition-title">🎥 Video: Clasificación binaria</p>
-<p><iframe width="100%" height="315" 
-src="https://www.youtube.com/embed/6Gcb-LlelvI" 
-frameborder="0" allowfullscreen></iframe></p>
+<div class="admonition example">
+<p class="admonition-title">📷 Imagen: Clasificación binaria</p>
+<p><img alt="Diagrama de clasificación" src="assets/modelo_de_clasificacion_multi_clase.png" width="100%" /></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Algunos ejemplos de clasificación ✍️.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Área de Aplicación</th>
+<th style="text-align: left;">Ejemplo Específico</th>
+<th style="text-align: left;">Tipo de Clasificación</th>
+<th style="text-align: left;">Posibles Predicciones (Clases)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Recursos Humanos</strong></td>
+<td style="text-align: left;">Predecir si un empleado clave abandonará la empresa en el próximo año.</td>
+<td style="text-align: left;"><strong>Binaria</strong></td>
+<td style="text-align: left;"><code>Sí Abandonará</code> / <code>No Abandonará</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Negocios (Finanzas)</strong></td>
+<td style="text-align: left;">Detectar si una transacción con tarjeta de crédito es fraudulenta.</td>
+<td style="text-align: left;"><strong>Binaria</strong></td>
+<td style="text-align: left;"><code>Fraude</code> / <code>No Fraude</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Logística</strong></td>
+<td style="text-align: left;">Determinar si un envío llegará a tiempo a su destino final.</td>
+<td style="text-align: left;"><strong>Binaria</strong></td>
+<td style="text-align: left;"><code>A Tiempo</code> / <code>Retrasado</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Negocios (Marketing)</strong></td>
+<td style="text-align: left;">Predecir si un usuario potencial convertirá (comprará) después de una campaña.</td>
+<td style="text-align: left;"><strong>Binaria</strong></td>
+<td style="text-align: left;"><code>Convertirá</code> / <code>No Convertirá</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Negocios (Clientes)</strong></td>
+<td style="text-align: left;">Clasificar a un cliente según su nivel de satisfacción a partir de una reseña escrita.</td>
+<td style="text-align: left;"><strong>Multiclase</strong></td>
+<td style="text-align: left;"><code>Satisfecho</code> / <code>Neutral</code> / <code>Insatisfecho</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Logística</strong></td>
+<td style="text-align: left;">Identificar el estado actual de un paquete en el sistema de seguimiento.</td>
+<td style="text-align: left;"><strong>Multiclase</strong></td>
+<td style="text-align: left;"><code>En Tránsito</code> / <code>En Entrega</code> / <code>Entregado</code> / <code>Devuelto</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Recursos Humanos</strong></td>
+<td style="text-align: left;">Asignar una calificación de desempeño a un empleado al final del año.</td>
+<td style="text-align: left;"><strong>Multiclase</strong></td>
+<td style="text-align: left;"><code>Supera Expectativas</code> / <code>Cumple</code> / <code>Necesita Mejorar</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Logística</strong></td>
+<td style="text-align: left;">Recomendar el tipo de servicio de envío más adecuado para un paquete.</td>
+<td style="text-align: left;"><strong>Multiclase</strong></td>
+<td style="text-align: left;"><code>Estándar</code> / <code>Express</code> / <code>Prioritario</code> / <code>Internacional</code></td>
+</tr>
+</tbody>
+</table>
 </div>
 <h2 id="aprendizaje-no-supervisado">Aprendizaje No supervisado</h2>
+<p>Por otro lado, en este tipo de modelos, se realizan predicciones con datos que no tienen <em>respuestas correctas</em>. El objetivo de estos modelos es identificar patrones entre los datos. Dicho de otro modo, el modelo no tiene pistas de cómo debe relacionar cada dato, sino que deberá inferir sus propias reglas.</p>
+<p>Una de las técnicas más comunes es la agrupación(<em>clustering</em>). Este método se encarga de encontrar agrupaciones naturales en un conjunto de datos.</p>
+<div class="admonition tip">
+<p class="admonition-title">Abre el Notebook en Google Colab</p>
+<p>Para ejecutar el código y experimentar por tu cuenta, puedes abrir el cuaderno de práctica directamente en Google Colab.</p>
+<p><a href="https://colab.research.google.com/drive/1B182noYsWkaOL8WZSYHBElJAf1pS8kCn?usp=sharing">➡️ **Abrir Notebook Interactivo **</a></p>
+</div>
 <h2 id="aprendizaje-por-refuerzo">Aprendizaje por refuerzo</h2>
-<p><a href="../semana-1-herramientas/">Siguiente: Herramientas de Trabajo para el curso &rarr;</a></p>
+<p>En estos modelos, se realizan predicciones a partir de una función de recompensa o castigo sobre las acciones y los estados del agente.</p>
+<p>El objetivo de estos sistemas es lograr alcanzar una politica de estado acción optima que permita obtener la mayor recompensa acomulada o minimizar el castigo.</p>
+<div class="admonition note">
+<p class="admonition-title">Algunos ejemplos de Aprendizaje por refuerzo ✍️.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Área de Aplicación</th>
+<th style="text-align: left;">Agente (El que aprende)</th>
+<th style="text-align: left;">Entorno (Donde actúa)</th>
+<th style="text-align: left;">Objetivo (Maximizar la Recompensa)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Juegos</strong></td>
+<td style="text-align: left;">Un programa de IA (como AlphaGo de DeepMind).</td>
+<td style="text-align: left;">Las reglas y el tablero del juego (Go, ajedrez).</td>
+<td style="text-align: left;">Ganar la partida.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Robótica</strong></td>
+<td style="text-align: left;">El sistema de control de un brazo robótico.</td>
+<td style="text-align: left;">Un almacén o una línea de ensamblaje física.</td>
+<td style="text-align: left;">Agarrar y mover objetos con éxito sin dejarlos caer.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sistemas Autónomos</strong></td>
+<td style="text-align: left;">El software de conducción de un vehículo.</td>
+<td style="text-align: left;">El tráfico, las carreteras y las señales de tránsito.</td>
+<td style="text-align: left;">Llegar al destino de forma segura y en el menor tiempo posible.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Optimización</strong></td>
+<td style="text-align: left;">El termostato inteligente de una casa (como Nest).</td>
+<td style="text-align: left;">El hogar y los patrones de comportamiento del usuario.</td>
+<td style="text-align: left;">Ahorrar energía manteniendo un nivel de confort para el usuario.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Finanzas</strong></td>
+<td style="text-align: left;">Un algoritmo de <em>trading</em> automático.</td>
+<td style="text-align: left;">El mercado de valores en tiempo real.</td>
+<td style="text-align: left;">Obtener el máximo beneficio económico de las operaciones.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Abre el Notebook en Google Colab</p>
+<p>Para ejecutar el código y experimentar por tu cuenta, puedes abrir el cuaderno de práctica directamente en Google Colab.</p>
+<p><a href="https://colab.research.google.com/drive/1mxGpans8UlVIbP-Rqo1xtNfRvlmSwnpS?usp=sharing">➡️ **Abrir Notebook Interactivo **</a></p>
+</div>
+<h2 id="inteligencia-artificial-generativa">Inteligencia artificial generativa.</h2>
+<p>La inteligencia artificial generativa es una clase de modelo que <em>genera</em> contenido a partir de entradas de usuario. Por ejemplo, la IA generativa puede crear imágenes, composiciones musicales y chistes; puede resumir artículos, explicar cómo realizar una tarea o editar una foto.</p>
+<p>Los modelos generativos más modernos pueden tomar una variedad importante de entradas y crear una variedad de salidas, como texto,imágenes, audio y video. Por ejemplo, un modelo puede tomar una imagen como entrada y crear una imagen y texto como salida, o tomar una imagen y texto como entrada y crear un video como salida.</p>
+<p>Algunas entradas y salidas de los modelos generativos son:</p>
+<ul>
+<li>Texto a texto</li>
+<li>Texto a imagen</li>
+<li>Texto a video</li>
+<li>Texto a código</li>
+<li>Texto a voz</li>
+<li>Imagen y texto a imagen</li>
+</ul>
+<p>.</p>
+<div class="admonition note">
+<p class="admonition-title">Algunos ejemplos de entrada y salida de modelos generativos ✍️.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Modelo</th>
+<th style="text-align: left;">Entrada</th>
+<th style="text-align: left;">Ejemplo de resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Texto a texto</td>
+<td style="text-align: left;">¿Quién es Simón bolívar?</td>
+<td style="text-align: left;">Simón Bolívar (1783-1830) fue un líder revolucionario venezolano conocido como "El Libertador" por su papel fundamental en la independencia de varios países sudamericanos del Imperio Español...</td>
+</tr>
+<tr>
+<td style="text-align: left;">Texto a imagen</td>
+<td style="text-align: left;">Genera una imagen de Elonk musk indignado viendo los precios de la mojarra en Baru Cartagena</td>
+<td style="text-align: left;"><img alt="modelo_generativo_texto_a_imagen" src="assets/modelo_generativo_texto_a_imagen.webp" width="40%" /></td>
+</tr>
+<tr>
+<td style="text-align: left;">Texto a video</td>
+<td style="text-align: left;">'An astronaut riding a horse.'</td>
+<td style="text-align: left;"><img alt="modelo_generativo_texto_a_video" src="assets/modelo_generativo_texto_a_video.gif" width="40%" /></td>
+</tr>
+<tr>
+<td style="text-align: left;">Texto a código</td>
+<td style="text-align: left;">Genera un ejemplo simple de regresión lineal simple con sklearn scikit-learn</td>
+<td style="text-align: left;"><img alt="ejemplo_texto_to_codigo_regresion_lineal" src="assets/ejemplo_texto_to_codigo_regresion_lineal.png" width="40%" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>¿Cómo funciona la IA generativa? En un nivel alto, los modelos generativos aprenden patrones en los datos con el objetivo de producir datos nuevos, pero similares. Los modelos generativos son los siguientes:</p>
+<ul>
+<li>Los comediantes que aprenden a imitar a otras personas observando su comportamiento y estilo de hablar</li>
+<li>Artistas que aprenden a pintar en un estilo particular estudiando muchas pinturas de ese estilo</li>
+<li>Bandas tributo que aprenden a sonar como un grupo musical específico escuchando mucho de su música</li>
+</ul>
+<p>Para producir resultados únicos y creativos, los modelos generativos se entrenan inicialmente con un enfoque no supervisado, en el que el modelo aprende a imitar los datos en los que se entrena. A veces, el modelo se entrena más con el aprendizaje supervisado o de refuerzo en datos específicos relacionados con las tareas que se le podrían pedir, por ejemplo, resumir un artículo o editar una foto.</p>
+<p>La IA generativa es una tecnología que evoluciona rápidamente y se descubren nuevos casos de uso constantemente. Por ejemplo, los modelos generativos ayudan a las empresas a definir mejor sus imágenes de productos de comercio electrónico quitando automáticamente los fondos que distraen o mejorando la calidad de las imágenes de baja resolución.</p>
+<div class="admonition tip">
+<p class="admonition-title">💡 Términos Clave de la Lección</p>
+<ol>
+<li><strong>Aprendizaje Supervisado (SL):</strong> Modelos que aprenden de datos que ya tienen las "respuestas correctas" o etiquetas.</li>
+<li><strong>Aprendizaje No Supervisado (NSL):</strong> Modelos que encuentran patrones y estructuras en datos sin etiquetar.</li>
+<li><strong>Aprendizaje por Refuerzo (RL):</strong> Modelos que aprenden tomando acciones en un entorno para maximizar una recompensa.</li>
+<li><strong>Regresión:</strong> Un tipo de aprendizaje supervisado que predice un valor numérico continuo (ej. el precio de una casa).</li>
+<li><strong>Clasificación:</strong> Un tipo de aprendizaje supervisado que predice una categoría (ej. si un correo es spam o no).</li>
+<li><strong>Clasificación Binaria:</strong> Un modelo de clasificación que elige entre solo dos posibles resultados (ej. <code>Fraude</code> / <code>No Fraude</code>).
+.  <strong>Clasificación Multiclase:</strong> Un modelo de clasificación que elige entre más de dos posibles resultados (ej. <code>Satisfecho</code> / <code>Neutral</code> / <code>Insatisfecho</code>).</li>
+<li><strong>Agrupación (Clustering):</strong> La técnica más común de aprendizaje no supervisado para encontrar grupos naturales en los datos.</li>
+<li><strong>Agente:</strong> En el aprendizaje por refuerzo, es la entidad que aprende a tomar decisiones (ej. un programa que juega ajedrez).</li>
+<li><strong>IA Generativa:</strong> Una clase de modelos que se especializan en crear contenido nuevo y original, como texto, imágenes o código.</li>
+</ol>
+</div>
+<p>¡Es hora de poner a prueba lo que has aprendido! Responde la siguiente pregunta directamente aquí en la página.</p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVG-JQW-InBGDzBkLPm3nSQy68tovYT_z0evTqLFOJztY1mQ/viewform?embedded=true" width="640" height="3022" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+<p>¡Excelente trabajo! Ahora continuemos con el siguiente tema.</p>
+<h2 id="bibliografia">Bibliografía</h2>
+<blockquote>
+<p>Wu, C., et al. (2025). <em>Qwen-Image Technical Report</em>. Recuperado de: https://arxiv.org/abs/2508.02324</p>
+</blockquote>
+<p><a href="../semana-1-2/">Siguiente: Aprendizaje supervisado &rarr;</a></p>
+<p><a href="../semana-1-herramientas/">O saltar a: Herramientas de Trabajo para el curso &rarr;</a></p>
 
 
 
