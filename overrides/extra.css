@@ -36,3 +36,49 @@
   transform: translateY(-2px); /* Mueve la caja un poco hacia arriba */
 }
 
+/* Botón de quiz */
+.quiz-btn {
+  --btn-bg: #2563eb;        /* azul */
+  --btn-bg-hover: #1d4ed8;  /* azul más oscuro */
+  --btn-bg-active: #1e40af;
+  --btn-text: #ffffff;
+  --btn-border: transparent;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--btn-border);
+  border-radius: 0.75rem; /* esquinas redondeadas */
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,.12);
+  transition: transform .06s ease, box-shadow .2s ease, background-color .15s ease;
+}
+
+.quiz-btn:hover {
+  background: var(--btn-bg-hover);
+  box-shadow: 0 6px 16px rgba(0,0,0,.18);
+}
+
+.quiz-btn:active {
+  background: var(--btn-bg-active);
+  transform: translateY(1px);
+}
+
+.quiz-btn:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Accesibilidad: foco visible incluso con mouse */
+.quiz-btn:focus {
+  out
+
+
